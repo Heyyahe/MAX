@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 812.0, 918.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 918.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,370 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-52",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 1171.200073, 70.399994, 330.0, 196.0 ],
+					"presentation_rect" : [ 1171.200073, 70.400002, 330.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~[2]",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"active" : 0,
+						"annotation_name" : "",
+						"parameter_enable" : 1,
+						"patchername" : "Pitch & Echo.amxd",
+						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Pitch & Echo.amxd",
+							"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"Dry/Wet" : 41.716534,
+									"EchoEnable" : 0.0,
+									"EchoFeedback" : 49.110237,
+									"EchoMode" : 0.0,
+									"EchoSync" : 13.0,
+									"EchoTime" : 999.238831,
+									"Gain" : 13.385826,
+									"Glide" : 2040.2854,
+									"Latency" : 1.0,
+									"Quality" : 0.0,
+									"Transp" : 60.0,
+									"VibDepth" : 25.0,
+									"VibDirection" : 0.0,
+									"VibEnable" : 1.0,
+									"VibNoiseAmount" : 50.0,
+									"VibNoiseEnable" : 0.0,
+									"VibOscAmount" : 50.0,
+									"VibOscEnable" : 1.0,
+									"VibRate" : 38.073074
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Pitch & Echo.amxd",
+									"origin" : "Pitch & Echo.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "Pitch & Echo.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"Dry/Wet" : 41.716534,
+												"EchoEnable" : 0.0,
+												"EchoFeedback" : 49.110237,
+												"EchoMode" : 0.0,
+												"EchoSync" : 13.0,
+												"EchoTime" : 999.238831,
+												"Gain" : 13.385826,
+												"Glide" : 2040.2854,
+												"Latency" : 1.0,
+												"Quality" : 0.0,
+												"Transp" : 60.0,
+												"VibDepth" : 25.0,
+												"VibDirection" : 0.0,
+												"VibEnable" : 1.0,
+												"VibNoiseAmount" : 50.0,
+												"VibNoiseEnable" : 0.0,
+												"VibOscAmount" : 50.0,
+												"VibOscEnable" : 1.0,
+												"VibRate" : 38.073074
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Pitch & Echo.amxd",
+										"filename" : "Pitch & Echo.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "a08b7ae080719104efc2894a00ac15b0"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "amxd~",
+					"varname" : "amxd~[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "## The VIZZIE video player/looper ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-33",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.playr.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 794.400024, 116.199989, 348.0, 158.0 ],
+					"prototypename" : "pixl",
+					"varname" : "playr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-31",
+					"lockeddragscroll" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 745.0, 306.200012, 343.0, 196.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 343.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"annotation_name" : "",
+						"parameter_enable" : 1,
+						"patchername" : "Additive Heaven.amxd",
+						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Additive Heaven.amxd",
+							"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"attack" : 1.0,
+									"decay" : 109.0,
+									"env_curve" : 0.1,
+									"harm_num_2" : 12.0,
+									"harm_num_3" : 39.0,
+									"harm_num_4" : 8.0,
+									"harm_num_5" : 25.0,
+									"harm_num_6" : 102.0,
+									"harm_num_7" : 103.0,
+									"harm_num_8" : 39.0,
+									"harm_val_2" : 0.1,
+									"harm_val_3" : 0.1,
+									"harm_val_4" : 0.66,
+									"harm_val_5" : 0.1,
+									"harm_val_6" : 0.1,
+									"harm_val_7" : 0.1,
+									"harm_val_8" : 3.0,
+									"harmonic_2" : 12.0,
+									"harmonic_3" : 39.0,
+									"harmonic_4" : 8.0,
+									"harmonic_5" : 25.0,
+									"harmonic_6" : 102.0,
+									"harmonic_7" : 103.0,
+									"harmonic_8" : 39.0,
+									"level" : 6.0,
+									"pan_1" : 33.0,
+									"pan_2" : -16.0,
+									"pan_3" : -8.0,
+									"pan_4" : 4.0,
+									"pan_5" : -21.0,
+									"pan_6" : 19.0,
+									"pan_7" : -51.0,
+									"pan_8" : 56.0,
+									"polyphony" : 16.0,
+									"release" : 10.0,
+									"sustain" : 49.0,
+									"vol_harm" : 0.0,
+									"vol_num_1" : 127.0,
+									"vol_num_2" : 71.0,
+									"vol_num_3" : 28.0,
+									"vol_num_4" : 30.0,
+									"vol_num_5" : 55.0,
+									"vol_num_6" : 62.0,
+									"vol_num_7" : 30.0,
+									"vol_num_8" : 42.0,
+									"volume_1" : 127.0,
+									"volume_2" : 71.0,
+									"volume_3" : 28.0,
+									"volume_4" : 30.0,
+									"volume_5" : 55.0,
+									"volume_6" : 62.0,
+									"volume_7" : 30.0,
+									"volume_8" : 42.0
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Additive Heaven.amxd",
+									"origin" : "Additive Heaven.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Additive Heaven.amxd",
+										"origname" : "C74:/packages/Max for Live/patchers/Max Instrument/Additive Heaven/Additive Heaven.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"attack" : 1.0,
+												"decay" : 109.0,
+												"env_curve" : 0.1,
+												"harm_num_2" : 12.0,
+												"harm_num_3" : 39.0,
+												"harm_num_4" : 8.0,
+												"harm_num_5" : 25.0,
+												"harm_num_6" : 102.0,
+												"harm_num_7" : 103.0,
+												"harm_num_8" : 39.0,
+												"harm_val_2" : 0.1,
+												"harm_val_3" : 0.1,
+												"harm_val_4" : 0.66,
+												"harm_val_5" : 0.1,
+												"harm_val_6" : 0.1,
+												"harm_val_7" : 0.1,
+												"harm_val_8" : 3.0,
+												"harmonic_2" : 12.0,
+												"harmonic_3" : 39.0,
+												"harmonic_4" : 8.0,
+												"harmonic_5" : 25.0,
+												"harmonic_6" : 102.0,
+												"harmonic_7" : 103.0,
+												"harmonic_8" : 39.0,
+												"level" : 6.0,
+												"pan_1" : 33.0,
+												"pan_2" : -16.0,
+												"pan_3" : -8.0,
+												"pan_4" : 4.0,
+												"pan_5" : -21.0,
+												"pan_6" : 19.0,
+												"pan_7" : -51.0,
+												"pan_8" : 56.0,
+												"polyphony" : 16.0,
+												"release" : 10.0,
+												"sustain" : 49.0,
+												"vol_harm" : 0.0,
+												"vol_num_1" : 127.0,
+												"vol_num_2" : 71.0,
+												"vol_num_3" : 28.0,
+												"vol_num_4" : 30.0,
+												"vol_num_5" : 55.0,
+												"vol_num_6" : 62.0,
+												"vol_num_7" : 30.0,
+												"vol_num_8" : 42.0,
+												"volume_1" : 127.0,
+												"volume_2" : 71.0,
+												"volume_3" : 28.0,
+												"volume_4" : 30.0,
+												"volume_5" : 55.0,
+												"volume_6" : 62.0,
+												"volume_7" : 30.0,
+												"volume_8" : 42.0
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Additive Heaven.amxd",
+										"filename" : "Additive Heaven.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 7/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "7c2cd3432ed89b2a50672d0003a1ff72"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"style" : "",
+					"text" : "amxd~ \"Additive Heaven.amxd\"",
+					"varname" : "amxd~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
@@ -70,7 +434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 259.0, 27.999998, 150.0, 30.0 ],
+					"patching_rect" : [ 259.0, 12.0, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -91,7 +455,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 474.0, 92.0, 187.0, 116.0 ],
+					"patching_rect" : [ 468.399994, 111.400002, 187.0, 116.0 ],
 					"varname" : "bp.Chorus",
 					"viewvisibility" : 1
 				}
@@ -915,7 +1279,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -923,7 +1287,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 2,
+					"order" : 4,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -931,7 +1295,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"order" : 2,
+					"order" : 4,
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -939,7 +1303,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"order" : 1,
+					"order" : 3,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 1 ],
+					"order" : 2,
+					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 2,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -947,7 +1327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -955,6 +1335,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 1 ],
+					"order" : 0,
+					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
 					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -976,8 +1372,56 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 2 ],
+					"order" : 0,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"order" : 1,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"order" : 0,
+					"source" : [ "obj-52", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
+					"source" : [ "obj-52", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 0,
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -997,29 +1441,45 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-33::obj-40" : [ "pictctrl[283]", "pictctrl[1]", 0 ],
+			"obj-33::obj-64" : [ "pictctrl[284]", "pictctrl[1]", 0 ],
+			"obj-33::obj-112::obj-94" : [ "textbutton", "textbutton", 0 ],
 			"obj-15::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
+			"obj-33::obj-112::obj-79" : [ "slider[3]", "slider[2]", 0 ],
 			"obj-23::obj-3" : [ "Regen[1]", "Regen", 0 ],
 			"obj-15::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-33::obj-112::obj-92" : [ "FreqMode[13]", "FreqMode", 0 ],
 			"obj-15::obj-24" : [ "vertical", "vertical", 0 ],
 			"obj-11::obj-28" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
+			"obj-31" : [ "amxd~", "amxd~", 0 ],
 			"obj-15::obj-54" : [ "umenu[6]", "umenu", 0 ],
 			"obj-11::obj-6" : [ "range[1]", "range", 0 ],
 			"obj-11::obj-21" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
 			"obj-15::obj-17" : [ "range[4]", "range", 0 ],
 			"obj-19::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-15::obj-94" : [ "umenu[1]", "umenu", 0 ],
+			"obj-33::obj-112::obj-119" : [ "speed[1]", "speed", 0 ],
 			"obj-11::obj-1" : [ "slide down", "slide down", 0 ],
 			"obj-11::obj-50" : [ "slide up", "slide up", 0 ],
 			"obj-19::obj-22" : [ "Mute", "Mute", 0 ],
+			"obj-33::obj-112::obj-121" : [ "speed", "speed", 0 ],
+			"obj-33::obj-28" : [ "pictctrl[279]", "pictctrl[1]", 0 ],
 			"obj-23::obj-1" : [ "Width[1]", "Width", 0 ],
+			"obj-33::obj-83" : [ "pictctrl[280]", "pictctrl[1]", 0 ],
 			"obj-19::obj-52" : [ "Level", "Level", 0 ],
+			"obj-52" : [ "amxd~[2]", "amxd~", 0 ],
 			"obj-19::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-33::obj-112::obj-120" : [ "range", "range", 0 ],
 			"obj-15::obj-68" : [ "horizontal", "horizontal", 0 ],
+			"obj-33::obj-112::obj-89" : [ "FreqMode[12]", "FreqMode", 0 ],
 			"obj-23::obj-23" : [ "bypass[1]", "bypass", 0 ],
+			"obj-33::obj-112::obj-16" : [ "rslider[2]", "rslider[2]", 0 ],
 			"obj-15::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
 			"obj-23::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-15::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-23::obj-2" : [ "Rate", "Rate", 0 ]
+			"obj-23::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-33::obj-81" : [ "pictctrl[281]", "pictctrl[1]", 0 ],
+			"obj-33::obj-60" : [ "pictctrl[282]", "pictctrl[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1064,8 +1524,121 @@
 				"type" : "AIFF",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Additive Heaven.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "./Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Additive Heaven.amxd",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "additivoice2.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pluggo.MiscCtrl.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "add.HarmVol.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "add.HarmCtrl.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pluggo.voiceExclude.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.playr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "playr-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "playr_controls.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "diminit.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dinit.js",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pitch & Echo.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"patcherrelativepath" : "./Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pitch & Echo.amxd",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.bal2~.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.vdelay~.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ],
 		"toolbaradditions" : [ "audiomute" ]
 	}
 
